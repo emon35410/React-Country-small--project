@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Suspense fallback={<h2>BIIIIIIG JEEEEEL</h2>}>
+      <Suspense fallback={<h1>Let Me Tell You Something</h1>}>
         <Countries  countriePromise={countriePromise}></Countries>
       </Suspense>
       
